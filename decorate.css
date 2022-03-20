@@ -1,0 +1,141 @@
+body
+{
+  background-color: #283149;
+}
+h1
+{
+  font-size: 5rem;
+ color: #DBEDF3;
+ font-family: 'Arvo', serif;
+ text-shadow: 3px 0 #DA0463;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+footer
+{
+text-align: center;
+  color: #DBEDF3;
+  margin-top: 20px;
+}
+.set
+{
+  display: grid;
+  grid-template-columns: repeat(6,200px);
+  grid-template-rows: repeat(6,200px);
+  grid-gap: 10px;
+justify-content: center;
+}
+.set>button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+
+}
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 1;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+    background-color: white;
+}
+.q:hover
+{
+  background-color: red;
+}
+.w:hover
+{
+  background-color: red;
+}
+.e:hover
+{
+  background-color: purple;
+}
+.r:hover
+{
+  background-color: purple;
+}
+.t:hover
+{
+  background-color: blue;
+}
+.y:hover
+{
+    background-color: blue;
+}
+.u:hover
+{
+  background-color: turquoise;
+
+}
+.i:hover
+{
+    background-color: turquoise;
+}
+.o:hover
+{
+  background-color: green;
+}
+.p:hover
+{
+    background-color: green;
+}
+.a:hover
+{
+  background-color: 	#FFD700;
+}
+.s:hover
+{
+    background-color:	#FFD700
+}
+.d:hover
+{
+    background-color:#FF8C00;
+}
+.f:hover
+{
+      background-color:#FF8C00;
+}
+.g:hover
+{
+  background-color: red;
+}
+.h:hover
+{
+  background-color: red;
+}
+.j,.k,.l,.z,.x,.c,.v,.b,.n,.m,.a1,.b1,.c1,.d1,.e1,.f1
+{
+background-color: black;
+
+}
+.j:hover,.k:hover,.l:hover,.z:hover,.x:hover,.c:hover,.v:hover,.b:hover,.n:hover,.m:hover,.a1:hover,.b1:hover,.c1:hover,.d1:hover,.e1:hover,.f1:hover
+{
+  background-color: white;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.3;
+}
+.ind
+{
+  color: white;
+  font-size: 2px;
+}
+@media(max-width:1000px)
+{
+  .set
+  {
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(16,200px)
+  }
+}
